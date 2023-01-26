@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: rgb(109, 57, 57);
+    color: white;
+    text-align: center;
+    font-size: 55px;
+    padding: 10px;
+}
+
+h2 {
+
+    color: white;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    background-image: url('https://imgs.search.brave.com/0vKGTQHI_ExHu1oKvMk2FA4tstHm46mukgQK31I9bK4/rs:fit:632:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5j/QkVxYXpwUmR2dTBE/WDhwZWxBc0NBSGFG/aiZwaWQ9QXBp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 96vh;
+}
+
+.list-container {
+    flex: 5;
+    padding: 20px 30px;
+}
+
+.form-container {
+    background-color: #82828276;
+    flex: 2;
+    padding: 25px 30px;
+}
+
+.my-form {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.my-form label {
+    display: block;
+    width: 90px;
+}
+
+.main-icon {
+    font-size: 40px;
+    color: darkgrey;
+    cursor: pointer;
+}
+
+#iImportant.important {
+    color: rgb(221, 66, 9);
+}
+
+.task {
+    display: flex;
+    border:1px solid #6a6a6a;
+    background-color: rgba(224, 224, 224, 0.78);
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    box-shadow: -8px 8px 20px -12px rgba(0,0,0,0.75);
+}
+
+.task label {
+    display: block;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+.task .col1 {
+    flex: 3;
+}
+
+.task .col2 {
+    flex: 1;
+}
+
+.task .col3 {
+    flex: 1;
+}
+
+.btn-save {
+	box-shadow:inset 0px 1px 0px 0px #a6827e;
+	background:linear-gradient(to bottom, #7d5d3b 5%, #634b30 100%);
+	background-color:#433220;
+	border-radius:3px;
+	border:1px solid #e09650;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #4d3534;
+}
+
+.btn-save:hover {
+	background:linear-gradient(to bottom, #634b30 5%, #7d5d3b 100%);
+	background-color:#634b30;
+}
+
+.btn-save:active {
+	position:relative;
+	top:1px;
+}
+
+#btnToggleForm {
+	box-shadow:inset 0px 1px 0px 0px #a6827e;
+	background:linear-gradient(to bottom, #7d5d3b 5%, #634b30 100%);
+	background-color:#433220;
+	border-radius:3px;
+	border:1px solid #e09650;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #4d3534;
+}
+
+#btnToggleForm:hover {
+	background:linear-gradient(to bottom, #634b30 5%, #7d5d3b 100%);
+	background-color:#634b30;
+}
+
+#btnToggleForm:active {
+	position:relative;
+	top:1px;
+}
+
+#txtTitle {
+    width: 160px;
+}
+
+#selDueDate {
+    width: 160px;
+}
+
+#txtContact {
+    width: 162px;
+}
+
+#selCategory {
+    width: 165px;
+}
+
+#selStatus {
+    width: 165px;
+}
